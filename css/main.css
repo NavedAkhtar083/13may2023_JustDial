@@ -9,9 +9,21 @@ body{
 
 }
 header{
-    height:81px;
-    width:94%;
+    height:89px;
+    width:95%;
     margin:auto;
+}
+ul > li:hover{
+    background-color:#EBEBEB;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.n_menu > li:hover ul{
+    display:block;
+}
+.n_submenu{
+    width:100px;
+    display:none;
 }
 main{
     height:3119px;
@@ -19,7 +31,7 @@ main{
     
 }
 .mt-5.n_mt-5{
-    margin-top:5rem!important;
+    margin-top:5rem !important;
 
 }
 footer{
